@@ -1,6 +1,8 @@
 // { Imports (Partial) } \\
 import { terminal } from "terminal-kit";
 
+// TODO: Make this dynamic lmao
+
 // { Class } \\
 class Logger {
   private getCurrentTime(): string {
