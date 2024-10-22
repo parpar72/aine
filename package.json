@@ -1,0 +1,22 @@
+{
+  "name": "aine",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run ./source/runtime.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^22.7.7",
+    "@types/terminal-kit": "^2.5.6",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.7.2",
+    "terminal-kit": "^3.1.1"
+  }
+}
